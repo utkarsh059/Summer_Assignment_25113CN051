@@ -12,9 +12,9 @@ public class Q3_ProductOfDigits {
         int product = 1;
 
         while (num != 0) {
-            int digit = num % 10;   // get last digit
+            int digit = num % 10;   
             product *= digit;
-            num /= 10;              // remove last digit
+            num /= 10;              
         }
 
         System.out.println("Product of digits = " + product);
